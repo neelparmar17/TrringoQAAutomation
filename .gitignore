@@ -1,0 +1,14 @@
+RemoteSystemsTempFiles/
+.settings/
+.buildpath
+.classpath
+.project
+.metadata/
+.log
+
+*.class
+*.jar
+*.war
+*.ear
+
+*.so
