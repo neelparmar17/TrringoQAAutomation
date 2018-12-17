@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.hashedin.app.listeners"/>
+    <listener class-name="com.hashedin.resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="AssignOperator to order(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="assignOp2Order"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- AssignOperator to order(failed) -->
+  <test name="Register new farmer(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="registerFarmer"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Register new farmer(failed) -->
+  <test name="Validate Order Start(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="startOrder"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Validate Order Start(failed) -->
+  <test name="Validate Place Order for C2C per hour pricing(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="PlaceOrderC2CHr"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Validate Place Order for C2C per hour pricing(failed) -->
+  <test name="Validate Stop Order(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="stopOrder"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Validate Stop Order(failed) -->
+  <test name="Validate C2C Accept the order(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="c2cAcceptOrder"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Validate C2C Accept the order(failed) -->
+  <test name="Validate Tractor Breakdown of an Order(failed)">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderWOP -->
+      <class name="com.hashedin.app.PlaceOrderC2CExc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CExc -->
+      <class name="com.hashedin.app.PlaceorderHub">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceorderHub -->
+      <class name="com.hashedin.app.FarmerRegistration">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.FarmerRegistration -->
+      <class name="com.hashedin.app.Orderresume">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orderresume -->
+      <class name="com.hashedin.app.SearchOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SearchOrder -->
+      <class name="com.hashedin.app.TractorReportBreakdown">
+        <methods>
+          <include name="tractorBD"/>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.TractorReportBreakdown -->
+      <class name="com.hashedin.app.PlaceOrderC2CWOP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2CWOP -->
+      <class name="com.hashedin.app.SupplierAcceptOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.SupplierAcceptOrder -->
+      <class name="com.hashedin.app.AssignOperatortoOrder">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AssignOperatortoOrder -->
+      <class name="com.hashedin.app.PlaceOrderC2C">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderC2C -->
+      <class name="com.hashedin.app.PlaceOrderHubExc">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderHubExc -->
+      <class name="com.hashedin.app.PlaceOrderAcreC2C">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrderAcreC2C -->
+      <class name="com.hashedin.app.PlaceOrdrAcreexc">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrdrAcreexc -->
+      <class name="com.hashedin.app.StopOrder">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.StopOrder -->
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.OrderStart">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hashedin.app.OrderStart -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+      <class name="com.hashedin.app.ImpBrkdwn">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.ImpBrkdwn -->
+    </classes>
+  </test> <!-- Validate Tractor Breakdown of an Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22082" started-at="2018-12-17T10:58:36Z" finished-at="2018-12-17T10:58:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22082" started-at="2018-12-17T10:58:36Z" finished-at="2018-12-17T10:58:58Z">
+      <class name="com.hashedin.app.HubPriceDeletePriceSpecificImplement">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.hashedin.app.HubPriceDeletePriceSpecificImplement@161479c6]" name="initialize" is-config="true" duration-ms="6975" started-at="2018-12-17T16:28:36Z" finished-at="2018-12-17T16:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="hubPricing()[pri:0, instance:com.hashedin.app.HubPriceDeletePriceSpecificImplement@161479c6]" name="hubPricing" duration-ms="14934" started-at="2018-12-17T16:28:43Z" finished-at="2018-12-17T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hubPricing -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hashedin.app.HubPriceDeletePriceSpecificImplement@161479c6]" name="tearDown" is-config="true" duration-ms="159" started-at="2018-12-17T16:28:58Z" finished-at="2018-12-17T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hashedin.app.HubPriceDeletePriceSpecificImplement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

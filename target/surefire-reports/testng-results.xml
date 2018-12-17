@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50647" started-at="2018-11-26T09:04:41Z" finished-at="2018-11-26T09:05:31Z">
+    <groups>
+    </groups>
+    <test name="place order" duration-ms="23099" started-at="2018-11-26T09:04:41Z" finished-at="2018-11-26T09:05:04Z">
+      <class name="com.hashedin.app.PlaceOrder">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.hashedin.app.PlaceOrder@58ceff1]" name="initialize" is-config="true" duration-ms="10605" started-at="2018-11-26T14:34:41Z" finished-at="2018-11-26T14:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newEquiry()[pri:0, instance:com.hashedin.app.PlaceOrder@58ceff1]" name="newEquiry" duration-ms="12482" started-at="2018-11-26T14:34:51Z" finished-at="2018-11-26T14:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEquiry -->
+      </class> <!-- com.hashedin.app.PlaceOrder -->
+    </test> <!-- place order -->
+    <test name="App test" duration-ms="0" started-at="2018-11-26T09:05:04Z" finished-at="2018-11-26T09:05:04Z">
+    </test> <!-- App test -->
+    <test name="Go to Agents Tab" duration-ms="11968" started-at="2018-11-26T09:05:04Z" finished-at="2018-11-26T09:05:16Z">
+      <class name="com.hashedin.app.AgentOrders">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.hashedin.app.AgentOrders@70be0a2b]" name="initialize" is-config="true" duration-ms="8632" started-at="2018-11-26T14:35:04Z" finished-at="2018-11-26T14:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="Agent()[pri:0, instance:com.hashedin.app.AgentOrders@70be0a2b]" name="Agent" duration-ms="1240" started-at="2018-11-26T14:35:12Z" finished-at="2018-11-26T14:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Agent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hashedin.app.AgentOrders@70be0a2b]" name="tearDown" is-config="true" duration-ms="2096" started-at="2018-11-26T14:35:14Z" finished-at="2018-11-26T14:35:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hashedin.app.AgentOrders -->
+    </test> <!-- Go to Agents Tab -->
+    <test name="Login to the App" duration-ms="0" started-at="2018-11-26T09:05:16Z" finished-at="2018-11-26T09:05:16Z">
+    </test> <!-- Login to the App -->
+    <test name="Validate Orders" duration-ms="15544" started-at="2018-11-26T09:05:16Z" finished-at="2018-11-26T09:05:31Z">
+      <class name="com.hashedin.app.Orders">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.hashedin.app.Orders@7f1302d6]" name="initialize" is-config="true" duration-ms="6720" started-at="2018-11-26T14:35:16Z" finished-at="2018-11-26T14:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="newEquiry()[pri:0, instance:com.hashedin.app.Orders@7f1302d6]" name="newEquiry" duration-ms="8824" started-at="2018-11-26T14:35:22Z" finished-at="2018-11-26T14:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEquiry -->
+      </class> <!-- com.hashedin.app.Orders -->
+    </test> <!-- Validate Orders -->
+  </suite> <!-- Suite -->
+</testng-results>

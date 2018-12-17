@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+   <listener class-name="com.hashedin.app.listeners" />
+   <listener class-name="com.hashedin.resources.ExtentReporterNG" />
+</listeners>
+
+  <test name="AssignOperator to order">
+    <classes>
+      <class name="com.hashedin.app.AssignOperatortoOrder"/>
+    </classes>
+  </test>
+     
+  <test name="Register new farmer">
+    <classes>
+      <class name="com.hashedin.app.FarmerRegistration"/>
+    </classes>
+  </test>   
+  
+  <test name="Report Breakdown for an Implement">
+    <classes>
+      <class name="com.hashedin.app.ImpBrkdwn"/>
+    </classes>
+  </test>
+     
+  <test name="App test">
+    <classes>
+      <class name="com.hashedin.app.AppTest"/>
+      
+      </classes>
+  </test>
+  
+  <test name="Go to Agents Tab">
+    <classes>
+      <class name="com.hashedin.app.AgentOrders"/>
+      </classes>
+  </test>
+  
+  <test name="Resume an Order after Breakdown">
+    <classes>
+      <class name="com.hashedin.app.Orderresume"/>
+     </classes>
+  </test>
+  
+  <test name="Validate Orders">
+    <classes>
+      <class name="com.hashedin.app.Orders"/>
+    </classes>
+  </test>
+ 
+ <test name="Validate Order Start">
+    <classes>
+      <class name="com.hashedin.app.OrderStart"/>
+    </classes>
+  </test>
+  
+ <test name="Validate Place Order for C2C per acre pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderAcreC2C"/>
+    </classes>
+  </test>
+  
+  
+ <test name="Validate Place Order for C2C per hour pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderC2C"/>
+    </classes>
+ </test>
+    
+ <test name="Validate Place Order for C2C per hour exclusive pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderC2CExc"/>
+    </classes>
+ </test>
+    
+ <test name="Validate Place Order for C2C per hour Implement Only">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderC2CWOP"/>
+     </classes>
+ </test>
+    
+ <test name="Validate Place Order for Hub per hour pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceorderHub"/>
+     </classes>
+ </test>
+    
+ <test name="Validate Place Order for Hub Exclusive pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderHubExc"/>
+     </classes>
+ </test>
+    
+ <test name="Validate Place Order for Hub Implement Only pricing">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrderWOP"/>
+     </classes>
+ </test>
+    
+ <test name="Validate Place Order for Hub Exclusive pricing for per acre">
+    <classes>
+      <class name="com.hashedin.app.PlaceOrdrAcreexc"/>
+     </classes>
+ </test>
+    
+  <test name="Validate Search By Order Id">
+    <classes>
+      <class name="com.hashedin.app.SearchOrder"/>
+    </classes>
+ </test>
+    
+ <test name="Validate Stop Order">
+    <classes>
+      <class name="com.hashedin.app.StopOrder"/>
+    </classes>
+ </test>
+    
+ <test name="Validate C2C Accept the order">
+    <classes>
+      <class name="com.hashedin.app.SupplierAcceptOrder"/>
+     </classes>
+ </test>
+    
+ <test name="Validate Tractor Breakdown of an Order">
+    <classes>
+      <class name="com.hashedin.app.TractorReportBreakdown"/>
+     </classes>
+
+</test> <!--Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.hashedin.app.listeners"/>
+    <listener class-name="com.hashedin.resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="place order(failed)">
+    <classes>
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.PlaceOrder">
+        <methods>
+          <include name="newEquiry"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrder -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+    </classes>
+  </test> <!-- place order(failed) -->
+  <test name="Go to Agents Tab(failed)">
+    <classes>
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+          <include name="Agent"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.PlaceOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrder -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+    </classes>
+  </test> <!-- Go to Agents Tab(failed) -->
+  <test name="Validate Orders(failed)">
+    <classes>
+      <class name="com.hashedin.app.AgentOrders">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.AgentOrders -->
+      <class name="com.hashedin.app.PlaceOrder">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.hashedin.app.PlaceOrder -->
+      <class name="com.hashedin.app.Orders">
+        <methods>
+          <include name="initialize"/>
+          <include name="newEquiry"/>
+        </methods>
+      </class> <!-- com.hashedin.app.Orders -->
+    </classes>
+  </test> <!-- Validate Orders(failed) -->
+</suite> <!-- Failed suite [Suite] -->
